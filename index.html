@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,16 +8,167 @@
     <script src="https://kit.fontawesome.com/3cbcd3041c.js"></script>
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- stylesheet prinicipal-->
+    <link rel="stylesheet" href="css/sass/main.css">
+    <!-- Googlefont CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Anton&display=swap" rel="stylesheet"> 
+    <!-- AOS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Les films de Plein Air</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav data-aos="fade-down" data-aos-duration="2000" class="navbar navbar-expand-lg navbar-dark  fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" title="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item  pl-3">
+            <a class="nav-link " href="programmation.html">PROGRAMMATION</a>
+          </li>
+          <li class="nav-item pl-3">
+            <a class="nav-link " href="news.html"> NEWS</a>
+          </li>
+          <li class="nav-item pl-3">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <span class="navbar-text mr-5">
+          <a class="pr-3" href="https://facebook.com" target="_blanck"><i class="fab fa-facebook-square"></i></a>
+          <a class="pr-3" href="https://twitter.com" target="_blanck"><i class="fab fa-twitter-square"></i></a>
+          <a class="pr-3" href="https://instagram.com" target="_blanck"><i class="fab fa-instagram"></i></a>
+        </span>
+      </div>
+    </nav>
+    <section class="banniere">
+      <div class="container-fluid">
+        <div class="row p-3">
+          <div data-aos="flip-down" data-aos-duration="1000" class="col-12 col-lg-3 text-center mt-5">
+            <div class="row">
+              <div class="col-6 col-lg-12 mt-5">
+                <p><span class="numero">8</span></p>
+                <p class="type">Films d'auteurs</p> 
+              </div>
+              <div class="col-6 col-lg-12 mt-5">
+                <p><span class="numero">16</span></p>
+                <p class="type">Heures de passion</p> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4"></div>
+          <div data-aos="flip-up" data-aos-duration="1000" class="col-12 col-lg-5  mt-5">
+            <div class="row">
+              <div class="col-12 titre text-center mt-5">
+                <h1>Les Films de Plein Air</h1>
+              </div>
+              <div class="col-12 presentation mt-5">
+                <p>Le festival du film de plein air se déroulera du 5 au 8 août 2020 au parc Monceau à paris de 18h à minuit. Vous pourrez venir regarder deux films d'auteurs par soirée dans un cadre magnifique et naturel. Passioné du cinéma ou avide de découverte des plus grands chefs d'oueuvres du 7 ème art, venez nombreux nous rejoindre autour de cet évenement exceptionnel. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="jour1">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-12 col-lg-4 d-flex align-items-center">
+            <div class="row">
+              <div class="col-12 m-2">
+                <h2>JEUDI 8 AOUT 2020</h2>
+              </div>
+              <div class="col-12 m-2">
+                <h3> <i class="fas fa-info-circle"></i> Informations Pratiques</h3>
+                <p class="mt-2">Horaires d'ouvertures : 18h00 - 00h00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2"></div>
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                  <div data-aos="fade-left" data-aos-duration="1000" class="card m-2 bg-dark">
+                      <img src="images/Taxi_Driver.jpg" class="card-img-top" alt="Taxi driver" title="Taxi Driver">
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Taxi Driver</h3>
+                        <p class="card-text mb-2">Séance à 18h30</p>
+                        <p><a href="#" class="btn btn-purple" data-toggle="modal" data-target="#taxidriver">Voir plus et participer</a></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 ">
+                  <div data-aos="fade-left" data-aos-duration="1000" class="card m-2 bg-dark">
+                      <img src="images/Un_prophete.jpg" class="card-img-top" alt="Un Prophète" title="Un Prophète">
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Un Prophète</h3>
+                        <p class="card-text mb-2">Séance à 21h30</p>
+                        <p><a href="# " class="btn btn-purple" data-toggle="modal" data-target="#unprophete">Voir plus et participer</a></p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="jour2">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-12 col-lg-4 d-flex align-items-center">
+            <div class="row">
+              <div class="col-12 m-2">
+                <h2>VENDREDI 9 AOUT 2020</h2>
+              </div>
+              <div class="col-12 m-2">
+                <h3> <i class="fas fa-info-circle"></i> Informations Pratiques</h3>
+                <p class="mt-2">Horaires d'ouvertures : 18h00 - 00h00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2"></div>
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                  <div data-aos="fade-left" data-aos-duration="1000" class="card m-2 bg-dark">
+                      <img src="images/Taxi_Driver.jpg" class="card-img-top" alt="Taxi driver" title="Taxi Driver">
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Taxi Driver</h3>
+                        <p class="card-text mb-2">Séance à 18h30</p>
+                        <p><a href="#" class="btn btn-purple" data-toggle="modal" data-target="#taxidriver">Voir plus et participer</a></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 ">
+                  <div data-aos="fade-left" data-aos-duration="1000" class="card m-2 bg-dark">
+                      <img src="images/Un_prophete.jpg" class="card-img-top" alt="Un Prophète" title="Un Prophète">
+                      <div class="card-body text-center">
+                        <h3 class="card-title">Un Prophète</h3>
+                        <p class="card-text mb-2">Séance à 21h30</p>
+                        <p><a href="# " class="btn btn-purple" data-toggle="modal" data-target="#unprophete">Voir plus et participer</a></p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="jour3">
 
+    </section>
+    <section class="jour4">
+
+    </section>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS , then aos JS, then main js-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

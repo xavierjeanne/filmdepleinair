@@ -1,0 +1,29 @@
+nav{
+    font-family: $base-font-family;
+    background-color:transparent !important;
+    transition:background-color 1s;
+    a {
+        color:$grey !important;
+        transition-property: color;
+        transition-duration: 1s;
+        &:hover{
+            color:$green !important;
+        }
+        img{
+        height:100px;
+        width:100%;
+        transition: height .5s;
+        }
+    }
+}
+.navbar-scroll{
+    background-color:$green !important;
+    a{
+        &:hover{
+            color:$black !important;
+        }
+        img{
+            height:60px;
+        }
+    }
+}
