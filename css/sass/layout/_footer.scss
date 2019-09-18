@@ -1,0 +1,13 @@
+footer{
+    background-color: $black;
+    li{
+        margin-bottom:10px;
+        a{
+            color:$grey;
+            &:hover{
+                text-decoration:none;
+                color:$green !important;
+            }
+        }
+    }
+}

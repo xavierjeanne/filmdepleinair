@@ -10,20 +10,18 @@ nav{
             color:$green !important;
         }
         img{
-        height:100px;
-        width:100%;
-        transition: height .5s;
+            margin-top:-20px;
+            height:150px;
+            width:100%;
+            transition: height .5s;
         }
     }
 }
 .navbar-scroll{
-    background-color:$green !important;
+    background-color:$black !important;
     a{
-        &:hover{
-            color:$black !important;
-        }
         img{
-            height:60px;
+            height:100px;
         }
     }
 }

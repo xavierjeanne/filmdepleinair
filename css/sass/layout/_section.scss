@@ -1,4 +1,4 @@
-.jour1{
+.jour1,.jour2,.jour3,.jour4{
     background-color:$blue;
     h2{
         font-size:2rem;
@@ -6,4 +6,7 @@
     .card{
         font-size:1rem;
     }
+}
+.jour2,.jour4{
+    background-color: $green;
 }

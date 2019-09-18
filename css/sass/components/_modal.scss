@@ -1,0 +1,10 @@
+.modal-header{
+    background-color:$blue;
+}
+.modal-body{
+    color:$black;
+    .description{
+        font-family:$title-font-family;
+        color:$blue;
+    }
+}
