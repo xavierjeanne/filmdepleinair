@@ -1,4 +1,4 @@
-.day1,.day2,.day3,.day4,.newsletter{
+.news1,.news2,.news3{
     background-color:$blue;
     h2{
         font-size:2rem;
@@ -6,7 +6,10 @@
     .card{
         font-size:1rem;
     }
+    .auteur{
+        font-family:$title-font-family;
+    }
 }
-.day2,.day4{
+.news2{
     background-color: $green;
 }

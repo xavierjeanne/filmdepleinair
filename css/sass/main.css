@@ -505,7 +505,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #E6EBE0;
 }
-.banniere {
+.banner {
   background: url(../../images/film_plein_air.png) no-repeat;
   background-size: cover;
   height: 850px;
@@ -513,27 +513,27 @@ body {
   font-size: 4rem;
 }
 
-.banniere .numero, .banniere .titre h1 {
+.banner .numero, .banner .titre h1 {
   font-family: "Anton", Georgia, sans-serif;
   font-size: 4rem;
 }
 
-.banniere .type {
+.banner .type {
   font-size: 2rem;
   padding-left: 50%;
   font-family: "Anton", Georgia, sans-serif;
   color: #9BC1BC;
 }
 
-.banniere .presentation {
+.banner .presentation {
   font-size: 1.2rem;
 }
 
 @media screen and (max-width: 600px) {
-  .banniere {
+  .banner {
     height: 1000px;
   }
-  .banniere .type {
+  .banner .type {
     font-size: 1.5rem;
   }
 }
@@ -555,19 +555,19 @@ footer li a:hover {
   color: #9BC1BC !important;
 }
 
-.jour1, .jour2, .jour3, .jour4 {
+.day1, .day2, .day3, .day4, .newsletter {
   background-color: #335786;
 }
 
-.jour1 h2, .jour2 h2, .jour3 h2, .jour4 h2 {
+.day1 h2, .day2 h2, .day3 h2, .day4 h2, .newsletter h2 {
   font-size: 2rem;
 }
 
-.jour1 .card, .jour2 .card, .jour3 .card, .jour4 .card {
+.day1 .card, .day2 .card, .day3 .card, .day4 .card, .newsletter .card {
   font-size: 1rem;
 }
 
-.jour2, .jour4 {
+.day2, .day4 {
   background-color: #9BC1BC;
 }
 
@@ -599,11 +599,43 @@ nav a img {
 }
 
 .navbar-scroll {
-  background-color: #111111 !important;
+  background-color: white !important;
+}
+
+.navbar-scroll a {
+  color: #111111 !important;
 }
 
 .navbar-scroll a img {
   height: 100px;
+}
+
+.news1, .news2, .news3 {
+  background-color: #335786;
+}
+
+.news1 h2, .news2 h2, .news3 h2 {
+  font-size: 2rem;
+}
+
+.news1 .card, .news2 .card, .news3 .card {
+  font-size: 1rem;
+}
+
+.news1 .auteur, .news2 .auteur, .news3 .auteur {
+  font-family: "Anton", Georgia, sans-serif;
+}
+
+.news2 {
+  background-color: #9BC1BC;
+}
+
+.contact {
+  background-color: #335786;
+}
+
+.contact h2 {
+  font-size: 2rem;
 }
 
 .modal-header {
