@@ -18,6 +18,26 @@
         font-size:1.2rem;
     }
 }
+.banner-contact{
+    background: url(../../images/contact.jpg) no-repeat;
+    background-size: cover;
+    height:850px;
+    padding-top:200px;
+    font-size:4rem;
+    .numero,.titre h1{
+        font-family:$title-font-family;
+        font-size:4rem;
+    }
+    .type{
+        font-size:2rem;
+        padding-left:50%;
+        font-family:$title-font-family;
+        color:$green;
+    }
+    .presentation{
+        font-size:1.2rem;
+    }
+}
 @media screen and (max-width : 600px){
     .banner{
         height:1000px;

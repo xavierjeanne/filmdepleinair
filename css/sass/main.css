@@ -529,6 +529,30 @@ body {
   font-size: 1.2rem;
 }
 
+.banner-contact {
+  background: url(../../images/contact.jpg) no-repeat;
+  background-size: cover;
+  height: 850px;
+  padding-top: 200px;
+  font-size: 4rem;
+}
+
+.banner-contact .numero, .banner-contact .titre h1 {
+  font-family: "Anton", Georgia, sans-serif;
+  font-size: 4rem;
+}
+
+.banner-contact .type {
+  font-size: 2rem;
+  padding-left: 50%;
+  font-family: "Anton", Georgia, sans-serif;
+  color: #9BC1BC;
+}
+
+.banner-contact .presentation {
+  font-size: 1.2rem;
+}
+
 @media screen and (max-width: 600px) {
   .banner {
     height: 1000px;
