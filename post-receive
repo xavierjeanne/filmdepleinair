@@ -1,6 +1,6 @@
 #!/bin/bash
-TARGET="/home/xavierjeann/sites/filmdepleinair.xavierjeanne.fr"
-GIT_DIR="/home/xavierjeann/sites/filmdepleinair.xavierjeanne.fr.git"
+TARGET="/sites/filmdepleinair.xavierjeanne.fr"
+GIT_DIR="/sites/filmdepleinair.xavierjeanne.fr.git"
 BRANCH="master"
 
 while read oldrev newrev ref
