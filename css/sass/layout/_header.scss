@@ -21,22 +21,37 @@
 .banner-contact{
     background: url(../../images/contact.jpg) no-repeat;
     background-size: cover;
-    height:850px;
+    height:600px;
     padding-top:200px;
     font-size:4rem;
-    .numero,.titre h1{
-        font-family:$title-font-family;
-        font-size:4rem;
-    }
-    .type{
-        font-size:2rem;
-        padding-left:50%;
-        font-family:$title-font-family;
-        color:$green;
-    }
-    .presentation{
-        font-size:1.2rem;
-    }
+}
+.banner-news{
+    background: url(../../images/news.png) no-repeat;
+    background-size: cover;
+    height:600px;
+    padding-top:200px;
+    font-size:4rem;
+}
+.banner-programmation{
+    background: url(../../images/programmation.jpg) no-repeat;
+    background-size: cover;
+    height:600px;
+    padding-top:200px;
+    font-size:4rem;
+}
+.banner-reservation{
+    background: url(../../images/reservation.jpg) no-repeat;
+    background-size: cover;
+    height:600px;
+    padding-top:200px;
+    font-size:4rem;
+}
+.banner-mentions{
+    background: url(../../images/mentions.jpg) no-repeat;
+    background-size: cover;
+    height:600px;
+    padding-top:200px;
+    font-size:4rem;
 }
 @media screen and (max-width : 600px){
     .banner{

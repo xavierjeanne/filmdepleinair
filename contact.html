@@ -1,5 +1,6 @@
     <!doctype html>
     <html lang="fr">
+
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -7,19 +8,22 @@
         <!-- Fontawesome CDN-->
         <script src="https://kit.fontawesome.com/3cbcd3041c.js"></script>
         <!-- Bootstrap CDN -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- stylesheet prinicipal-->
         <link rel="stylesheet" href="css/sass/main.css">
         <!-- Googlefont CDN -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Anton&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Anton&display=swap" rel="stylesheet">
         <!-- AOS CDN-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-        <title>Les films de Plein Air</title>
+        <title>Formulaire de contact</title>
     </head>
+
     <body>
         <nav data-aos="fade-down" data-aos-duration="2000" class="navbar navbar-expand-lg navbar-dark  fixed-top">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" title="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
@@ -35,131 +39,128 @@
                     </li>
                 </ul>
                 <span class="navbar-text mr-5">
-                    <a class="pr-3" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a class="pr-3" href="https://facebook.com" target="_blank"><i
+                            class="fab fa-facebook-square"></i></a>
                     <a class="pr-3" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
                     <a class="pr-3" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 </span>
             </div>
         </nav>
-        <section class="banner-contact">
-            <div class="container-fluid">
-                <div class="row p-3">
-                    <div data-aos="flip-down" data-aos-duration="1000" class=" col-lg-3 text-center mt-5">
-                        <div class="row">
-                            <div class="col-6 col-lg-12 mt-5">
-                                <p><span class="numero">8</span></p>
-                                <p class="type">Films d'auteurs</p> 
-                            </div>
-                            <div class="col-6 col-lg-12 mt-5">
-                                <p><span class="numero">16</span></p>
-                                <p class="type">Heures de passion</p> 
-                            </div>
+        <section class="banner-contact container-fluid d-flex align-items-center text-center">
+            <div data-aos="flip-down" data-aos-duration="1000" class="col-12">
+                <h1>Nous contacter</h1>
+            </div>
+        </section>
+        <section class="contact container-fluid">
+            <div class="row p-5">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 pt-4 pb-4">
+                            <h2>Pour toutes questions, contactez nous grâce à ce formulaire.</h2>
                         </div>
-                    </div>
-                    <div class=" col-lg-4"></div>
-                    <div data-aos="flip-up" data-aos-duration="1000" class=" col-lg-5  mt-5">
-                        <div class="row">
-                            <div class=" titre text-center mt-5">
-                                <h1>Les Films de Plein Air</h1>
+                        <div class="col-12 pt-4">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="pt-2 pb-4">Email</h3>
+                                    <p><a href="mailto:contact@filmdepleinair.org">contact@filmdepleinair.org</a></p>
+                                </div>
+                                <div class="col-6">
+                                    <h3 class="pt-2 pb-4">Adresse</h3>
+                                    <p>Association Les Films de Plein Air</p>
+                                    <p>10 boulevard de Courcelles</p>
+                                    <p>75008 Paris</p>
+                                    <p>Tél : <a href="tel:+33606052032">0606052032</a></p>
+                                </div>
                             </div>
-                            <div class=" presentation mt-5">
-                                <p>Le festival du film de plein air se déroulera du 5 au 8 août 2020 au parc Monceau à paris de 18h à minuit. Vous pourrez venir regarder deux films d'auteurs par soirée dans un cadre magnifique et naturel. Passioné du cinéma ou avide de découverte des plus grands chefs d'oueuvres du 7 ème art, venez nombreux nous rejoindre autour de cet évenement exceptionnel. </p>
-                            </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="m-auto col-10">
-                        <h2 class="mb-5 pt-5 text-center">Nous contactez</h2>
-                        <form class="mb-5">
-                            <div class="form-row">
-                                <div class=" col-md-6 pt-4">
-                                    <label class="pb-2" for="nom">Nom</label>
-                                    <input type="text" class="form-control" id="nom" placeholder="Nom" required>
-                                </div>
-                                <div class=" col-md-6 pt-4">
-                                    <label class="pb-2" for="prenom">Prenom</label>
-                                    <input type="text" class="form-control" id="prenom" placeholder="Prénom"  required>
-                                </div>            
-                             </div>
-                            <div class="form-row">
-                                <div class="col-12 pt-4">
-                                    <label class="pb-2" for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Email" required>
-                                </div>
+                <div class="col-12 col-lg-6">
+                    <form class="mb-5">
+                        <div class="form-row">
+                            <div class=" col-md-6 pt-4">
+                                <input type="text" class="form-control" id="nom" placeholder="Nom" required>
                             </div>
-                            <div class="form-row">
-                                <div class="col-12 pt-4">
-                                    <label class="pb-2" for="sujet">Sujet</label>
-                                    <input type="text" class="form-control" id="sujet" placeholder="Sujet" required>
-                                </div>
+                            <div class=" col-md-6 pt-4">
+                                <input type="text" class="form-control" id="prenom" placeholder="Prénom" required>
                             </div>
-                            <div class="form-row">
-                                <div class="col-12 pt-4">
-                                    <label class="pb-2" for="message">Message</label>
-                                    <textarea class="form-control" id="message" placeholder="Message" required></textarea>
-                                </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 pt-4">
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
-                            <div class="form-row">
-                                <div class="col-12 text-center pt-4">
-                                    <button class="btn btn-purple" type="submit">Envoyer</button>
-                                </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 pt-4">
+                                <input type="text" class="form-control" id="sujet" placeholder="Sujet" required>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 pt-4">
+                                <textarea class="form-control" id="message" placeholder="Message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 text-center pt-4">
+                                <button class="btn btn-purple" type="submit">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
         <section>
             <div class="row">
                 <div class="col-12 w-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14842.842045784395!2d2.310463547354196!3d48.87978208171974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1569442219173!5m2!1sfr!2sfr" width="100%;" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14842.842045784395!2d2.310463547354196!3d48.87978208171974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1569442219173!5m2!1sfr!2sfr"
+                        width="100%;" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="container-fluid p-5">
-                  <div class="row">
-                    <div class="offset-md-1 col-md-3 pt-2">
-                        <h3 class="pb-3">Plan du site</h3>
-                      <ul>
-                        <li><a href="index.html">Acceuil</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="programmation.html">Programmation</a></li>
-                      </ul>
-                    </div>
-                    <div class="offset-md-1 col-md-3 pt-2">
-                        <h3 class="pb-3">Informations</h3>
-                      <ul>
-                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
-                        <li><a href="cgu.html">CGU</a></li>
-                      </ul>
-                    </div>
-                    <div class="offset-md-1 col-md-3 pt-2">
-                        <h3 class="pb-3">nous suivre</h3>
-                      <ul>
-                        <li><a class="pr-3" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+        <footer class="container-fluid p-5 d-md-flex justify-content-around">
+            <div class="pb-3 pl-5 pl-md-0">
+                <h3 class="pb-3">Plan du site</h3>
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="programmation.html">Programmation</a></li>
+                </ul>
+            </div>
+            <div class="pb-3 pl-5 pl-md-0">
+                <h3 class="pb-3">Informations</h3>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="cgu.html">CGU</a></li>
+                </ul>
+            </div>
+            <div class="pb-3 pl-5 pl-md-0">
+                <h3 class="pb-3">Nous suivre</h3>
+                <ul>
+                    <li><a class="pr-3" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
                         <a class="pr-3" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
                         <a class="pr-3" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </footer>
+                </ul>
+            </div>
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS , then aos JS, then main js-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="js/main.js"></script>
         <script>
             AOS.init();
         </script>
     </body>
+
     </html>

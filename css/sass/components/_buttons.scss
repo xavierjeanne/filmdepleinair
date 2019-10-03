@@ -1,7 +1,13 @@
 .btn-purple{
     background-color:$purple;
     color:white;
+    transition-property: background-color color;
+    transition-duration: 0.5s;
     &:hover{
-        color:$grey;
+        background-color: $grey;
+        color:black;
     }
+}
+a.btn-purple{
+    text-decoration :none;
 }

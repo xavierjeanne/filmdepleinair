@@ -522,7 +522,7 @@ body {
   font-size: 2rem;
   padding-left: 50%;
   font-family: "Anton", Georgia, sans-serif;
-  color: #9BC1BC;
+  color: #119da4;
 }
 
 .banner .presentation {
@@ -532,25 +532,41 @@ body {
 .banner-contact {
   background: url(../../images/contact.jpg) no-repeat;
   background-size: cover;
-  height: 850px;
+  height: 600px;
   padding-top: 200px;
   font-size: 4rem;
 }
 
-.banner-contact .numero, .banner-contact .titre h1 {
-  font-family: "Anton", Georgia, sans-serif;
+.banner-news {
+  background: url(../../images/news.png) no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 200px;
   font-size: 4rem;
 }
 
-.banner-contact .type {
-  font-size: 2rem;
-  padding-left: 50%;
-  font-family: "Anton", Georgia, sans-serif;
-  color: #9BC1BC;
+.banner-programmation {
+  background: url(../../images/programmation.jpg) no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 200px;
+  font-size: 4rem;
 }
 
-.banner-contact .presentation {
-  font-size: 1.2rem;
+.banner-reservation {
+  background: url(../../images/reservation.jpg) no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 200px;
+  font-size: 4rem;
+}
+
+.banner-mentions {
+  background: url(../../images/mentions.jpg) no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 200px;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -576,7 +592,7 @@ footer li a {
 
 footer li a:hover {
   text-decoration: none;
-  color: #9BC1BC !important;
+  color: #119da4 !important;
 }
 
 .day1, .day2, .day3, .day4, .newsletter {
@@ -592,18 +608,18 @@ footer li a:hover {
 }
 
 .day2, .day4 {
-  background-color: #9BC1BC;
+  background-color: #119da4;
 }
 
 nav {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  background-color: transparent !important;
+  background-color: white;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
 
 nav a {
-  color: #E6EBE0 !important;
+  color: #111111 !important;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 1s;
@@ -611,12 +627,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #9BC1BC !important;
+  color: #119da4 !important;
 }
 
 nav a img {
   margin-top: -20px;
-  height: 150px;
+  height: 90px;
   width: 100%;
   -webkit-transition: height .5s;
   transition: height .5s;
@@ -626,12 +642,12 @@ nav a img {
   background-color: white !important;
 }
 
-.navbar-scroll a {
-  color: #111111 !important;
+.navbar-scroll a img {
+  height: 70px;
 }
 
-.navbar-scroll a img {
-  height: 100px;
+.reservation {
+  background-color: #119da4;
 }
 
 .news1, .news2, .news3 {
@@ -650,8 +666,26 @@ nav a img {
   font-family: "Anton", Georgia, sans-serif;
 }
 
+.news1 img, .news2 img, .news3 img {
+  height: 400px;
+}
+
 .news2 {
-  background-color: #9BC1BC;
+  background-color: #119da4;
+}
+
+.mentions {
+  background-color: #119da4;
+  color: white;
+}
+
+.mentions h3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.programmation {
+  background-color: #119da4;
 }
 
 .contact {
@@ -660,6 +694,10 @@ nav a img {
 
 .contact h2 {
   font-size: 2rem;
+}
+
+.contact a {
+  color: #E6EBE0;
 }
 
 .modal-header {
@@ -678,9 +716,18 @@ nav a img {
 .btn-purple {
   background-color: #A491D3;
   color: white;
+  -webkit-transition-property: background-color color;
+  transition-property: background-color color;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .btn-purple:hover {
-  color: #E6EBE0;
+  background-color: #E6EBE0;
+  color: black;
+}
+
+a.btn-purple {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

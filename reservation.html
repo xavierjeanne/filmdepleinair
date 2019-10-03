@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fontawesome CDN-->
+    <script src="https://kit.fontawesome.com/3cbcd3041c.js"></script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- stylesheet prinicipal-->
+    <link rel="stylesheet" href="css/sass/main.css">
+    <!-- Googlefont CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Anton&display=swap" rel="stylesheet">
+    <!-- AOS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Réservation</title>
+</head>
+
+<body>
+    <nav data-aos="fade-down" data-aos-duration="2000" class="navbar navbar-expand-lg navbar-dark  fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" title="logo"></a>
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item  pl-3">
+                    <a class="nav-link " href="programmation.html">PROGRAMMATION</a>
+                </li>
+                <li class="nav-item pl-3">
+                    <a class="nav-link " href="news.html"> NEWS</a>
+                </li>
+                <li class="nav-item pl-3">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+            <span class="navbar-text mr-5">
+                <a class="pr-3" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a class="pr-3" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a class="pr-3" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </span>
+        </div>
+    </nav>
+    <section class="banner-reservation container-fluid d-flex align-items-center text-center">
+        <div data-aos="flip-down" data-aos-duration="1000" class="col-12">
+            <h1>Indiquez votre présence</h1>
+        </div>
+    </section>
+    <section class="reservation container-fluid p-5 ">
+        <form class="mb-5 p-5">
+            <div class="form-row">
+                <div class=" col-md-6 pt-4">
+                    <input type="text" class="form-control" id="nom" placeholder="Nom" required>
+                </div>
+                <div class=" col-md-6 pt-4 pb-2">
+                    <input type="text" class="form-control" id="prenom" placeholder="Prénom" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12 pt-4">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12 pt-4">
+                    <label class="pb-2">Séance :</label>
+                    <select class="form-control">
+                        <option>Taxi Driver : jeudi 5 août à 18h30</option>
+                        <option>Un Prophète : jeudi 5 août à 21h30</option>
+                        <option>Dead Man : vendredi 6 août à 18h30</option>
+                        <option>Edward Aux Mains D'argent : vendredi 6 août à 21h30</option>
+                        <option>Into The Wild : samedi 7 août à 18h30</option>
+                        <option>Match Point : samedi 7 août à 21h30</option>
+                        <option>Mélancholia : dimanche 9 août à 18h30</option>
+                        <option>Vol Au Dessus D'un Nid De Coucou : dimanche 9 août à 18h30</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12 text-center pt-4">
+                    <button class="btn btn-purple" type="submit">Je participe</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="newsletter container-fluid  text-center">
+        <div class="row p-5">
+            <div class="m-auto col-10">
+                <h2 class="pb-5">Newsletter</h2>
+                <p class="pb-4">Pour vous tenir informé des dernières news et informations de notre site, inscrivez
+                    vous à notre newsletter.</p>
+                <form action="" method="">
+                    <div class="form-row">
+                        <div class="col-12 offset-lg-4 col-lg-3 pt-3">
+                            <input type="email" class="form-control" id="email" placeholder="Votre email">
+                        </div>
+                        <div class="col-lg-2  pt-3">
+                            <button type="submit" class="btn btn-purple">S'inscrire</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid p-5 d-md-flex justify-content-around">
+        <div class="pb-3 pl-5 pl-md-0">
+            <h3 class="pb-3">Plan du site</h3>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="programmation.html">Programmation</a></li>
+            </ul>
+        </div>
+        <div class="pb-3 pl-5 pl-md-0">
+            <h3 class="pb-3">Informations</h3>
+            <ul>
+                <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                <li><a href="cgu.html">CGU</a></li>
+            </ul>
+        </div>
+        <div class="pb-3 pl-5 pl-md-0">
+            <h3 class="pb-3">Nous suivre</h3>
+            <ul>
+                <li><a class="pr-3" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a class="pr-3" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a class="pr-3" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS , then aos JS, then main js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

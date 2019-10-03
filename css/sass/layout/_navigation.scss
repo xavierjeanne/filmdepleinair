@@ -1,9 +1,9 @@
 nav{
     font-family: $base-font-family;
-    background-color:transparent !important;
+    background-color:white;
     transition:background-color 1s;
     a {
-        color:$grey !important;
+        color:$black !important;
         transition-property: color;
         transition-duration: 1s;
         &:hover{
@@ -11,7 +11,7 @@ nav{
         }
         img{
             margin-top:-20px;
-            height:150px;
+            height:90px;
             width:100%;
             transition: height .5s;
         }
@@ -20,9 +20,8 @@ nav{
 .navbar-scroll{
     background-color:white !important;
     a{
-        color:$black !important;
         img{
-            height:100px;
+            height:70px;
         }
     }
 }
