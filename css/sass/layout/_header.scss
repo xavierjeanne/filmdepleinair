@@ -1,69 +1,81 @@
-.banner{
+.banner {
     background: url(../../images/film_plein_air.png) no-repeat;
     background-size: cover;
-    height:850px;
-    padding-top:200px;
-    font-size:4rem;
-    .numero,.titre h1{
-        font-family:$title-font-family;
-        font-size:4rem;
+    height: 850px;
+    padding-top: 200px;
+    font-size: 4rem;
+
+    .numero,
+    .titre h1 {
+        font-family: $title-font-family;
+        font-size: 4rem;
     }
-    .type{
-        font-size:2rem;
-        padding-left:50%;
-        font-family:$title-font-family;
+
+    .type {
+        font-size: 2rem;
+        padding-left: 50%;
+        font-family: $title-font-family;
     }
-    .presentation{
-        font-size:1.2rem;
+
+    .presentation {
+        font-size: 1.2rem;
     }
 }
-.banner-contact{
-    background: url(../../images/contact.jpg) no-repeat;
+
+.banner-contact {
+    background: url(../../images/contact.png) no-repeat;
     background-size: cover;
-    height:600px;
-    padding-top:200px;
-    font-size:4rem;
+    height: 600px;
+    padding-top: 200px;
+    font-size: 4rem;
 }
-.banner-news{
+
+.banner-news {
     background: url(../../images/news.png) no-repeat;
     background-size: cover;
-    height:600px;
-    padding-top:200px;
-    font-size:4rem;
+    height: 600px;
+    padding-top: 200px;
+    font-size: 4rem;
 }
-.banner-programmation{
-    background: url(../../images/programmation.jpg) no-repeat;
+
+.banner-programmation {
+    background: url(../../images/programmation.png) no-repeat;
     background-size: cover;
-    height:600px;
-    padding-top:200px;
-    font-size:4rem;
+    height: 600px;
+    padding-top: 200px;
+    font-size: 4rem;
 }
-.banner-reservation{
-    background: url(../../images/reservation.jpg) no-repeat;
+
+.banner-reservation {
+    background: url(../../images/reservation.png) no-repeat;
     background-size: cover;
-    height:600px;
-    padding-top:200px;
-    font-size:4rem;
+    height: 600px;
+    padding-top: 200px;
+    font-size: 4rem;
 }
-.banner-mentions{
-    background: url(../../images/mentions.jpg) no-repeat;
+
+.banner-mentions {
+    background: url(../../images/mentions.png) no-repeat;
     background-size: cover;
-    height:600px;
-    padding-top:200px;
-    font-size:4rem;
+    height: 600px;
+    padding-top: 200px;
+    font-size: 4rem;
 }
-.banner-cgu{
-    background: url(../../images/cgu.jpg) no-repeat;
+
+.banner-cgu {
+    background: url(../../images/cgu.png) no-repeat;
     background-size: cover;
-    height:600px;
-    padding-top:200px;
-    font-size:4rem;
+    height: 600px;
+    padding-top: 200px;
+    font-size: 4rem;
 }
-@media screen and (max-width : 600px){
-    .banner{
-        height:1000px;
-        .type{
-            font-size:1.5rem;
+
+@media screen and (max-width : 600px) {
+    .banner {
+        height: 1000px;
+
+        .type {
+            font-size: 1.5rem;
         }
     }
 }
