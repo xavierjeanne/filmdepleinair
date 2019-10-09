@@ -522,7 +522,6 @@ body {
   font-size: 2rem;
   padding-left: 50%;
   font-family: "Anton", Georgia, sans-serif;
-  color: #119da4;
 }
 
 .banner .presentation {
@@ -563,6 +562,14 @@ body {
 
 .banner-mentions {
   background: url(../../images/mentions.jpg) no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 200px;
+  font-size: 4rem;
+}
+
+.banner-cgu {
+  background: url(../../images/cgu.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   padding-top: 200px;
@@ -650,28 +657,29 @@ nav a img {
   background-color: #119da4;
 }
 
-.news1, .news2, .news3 {
-  background-color: #335786;
+.news {
+  background-color: #119da4;
 }
 
-.news1 h2, .news2 h2, .news3 h2 {
+.news h2 {
   font-size: 2rem;
 }
 
-.news1 .card, .news2 .card, .news3 .card {
+.news .card {
   font-size: 1rem;
 }
 
-.news1 .auteur, .news2 .auteur, .news3 .auteur {
+.news .auteur {
   font-family: "Anton", Georgia, sans-serif;
 }
 
-.news1 img, .news2 img, .news3 img {
-  height: 400px;
+.news li a {
+  color: white;
 }
 
-.news2 {
-  background-color: #119da4;
+.news li a:hover {
+  color: #E6EBE0;
+  text-decoration: none;
 }
 
 .mentions {
@@ -680,6 +688,16 @@ nav a img {
 }
 
 .mentions h3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cgu {
+  background-color: #119da4;
+  color: white;
+}
+
+.cgu h3 {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }

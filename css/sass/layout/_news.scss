@@ -1,18 +1,27 @@
-.news1,.news2,.news3{
-    background-color:$blue;
-    h2{
-        font-size:2rem;
-    }
-    .card{
-        font-size:1rem;
-    }
-    .auteur{
-        font-family:$title-font-family;
-    }
-    img{
-        height:400px;
-    }
-}
-.news2{
+.news {
     background-color: $green;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        font-size: 1rem;
+    }
+
+    .auteur {
+        font-family: $title-font-family;
+    }
+
+
+    li {
+        a {
+            color: white;
+
+            &:hover {
+                color: $grey;
+                text-decoration: none;
+            }
+        }
+    }
 }
