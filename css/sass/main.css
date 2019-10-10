@@ -497,13 +497,18 @@ table {
   border-spacing: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Anton", Georgia, sans-serif;
 }
 
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #E6EBE0;
+  overflow-x: hidden;
 }
 .banner {
   background: url(../../images/film_plein_air.png) no-repeat;

@@ -1,9 +1,15 @@
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: $title-font-family;
 }
+
 body {
   font-family: $base-font-family;
-  color:$grey;
+  color: $grey;
+  overflow-x: hidden;
 }
 
-  /*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
