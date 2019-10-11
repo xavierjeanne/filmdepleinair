@@ -659,6 +659,15 @@ nav a img {
   height: 70px;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav a img {
+    height: 80px;
+  }
+}
+
 .reservation {
   background-color: #119da4;
 }
