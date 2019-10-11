@@ -32,14 +32,10 @@ nav {
 }
 
 @media screen and (max-width : 600px) {
-    body {
-        overflow-x: hidden;
-    }
-
     nav {
         a {
             img {
-                height: 80px;
+                width: 90%;
             }
         }
 

@@ -508,7 +508,6 @@ h5 {
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #E6EBE0;
-  overflow-x: hidden;
 }
 .banner {
   background: url(../../images/film_plein_air.png) no-repeat;
@@ -660,11 +659,8 @@ nav a img {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    overflow-x: hidden;
-  }
   nav a img {
-    height: 80px;
+    width: 90%;
   }
 }
 
